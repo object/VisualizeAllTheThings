@@ -1,0 +1,20 @@
+{
+    "template" : "traffic5-*",
+        "mappings": {
+            "traffic_logs": {
+                "properties": {
+                    "Properties": {
+                        "properties": {
+                            "Situation": {
+                                "properties": {
+                                    "Location": {
+                                      "type":"geo_point"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
